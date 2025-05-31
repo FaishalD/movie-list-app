@@ -63,7 +63,7 @@ const MovieCard = ({ movie, onEdit, onDelete }) => {
           </button>
           <button
             onClick={() => onDelete(movie.id)}
-            className="bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded text-sm transition-colors"
+            className="bg-earth-delete-500 hover:bg-earth-delete-500 text-white px-2 py-1 rounded text-sm transition-colors"
           >
             <Trash2 size={14} />
           </button>
@@ -458,6 +458,18 @@ export default function Dashboard() {
         }
         .bg-olive-500 {
           background-color: #8b8c3a;
+        }
+
+        .bg-earth-delete-50 {
+          background-color: #f9f4f2; /* soft clay tone - very light */
+        }
+
+        .bg-earth-delete-100 {
+          background-color: #eeddd8; /* light terracotta */
+        }
+
+        .bg-earth-delete-500 {
+          background-color: #b8543c; /* deep earthy red */
         }
       `}</style>
     </div>
