@@ -307,9 +307,11 @@ export default function Dashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">My Movies</h1>
+              <h1 className="text-2xl font-bold text-gray-900">
+                K-Drama Watched List
+              </h1>
               <p className="text-sm text-gray-600 mt-1">
-                {movies.length} movies • {watchedCount} watched • ⭐ {avgRating}{" "}
+                {movies.length} dramas • {watchedCount} watched • ⭐ {avgRating}{" "}
                 avg rating
               </p>
             </div>
