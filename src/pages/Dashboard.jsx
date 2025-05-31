@@ -221,7 +221,7 @@ const MovieForm = ({ movie, onSave, onCancel }) => {
 };
 
 // Main App Component
-export default function MovieTracker() {
+export default function Dashboard() {
   const [movies, setMovies] = useState([]);
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
