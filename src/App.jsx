@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import MovieTracker from "./pages/MovieTRacker";
+import MovieTracker from "./pages/MovieTracker";
 
 function App() {
   return (
